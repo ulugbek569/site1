@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личная веб-страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(-45deg, #ff00ff, #00ffff, #ffff00); /* Градиентный фон с начальными цветами */
+            background-size: 400% 400%; /* Размер градиента */
+            animation: neon-background 10s ease infinite; /* Анимация градиента */
+        }
+
+        @keyframes neon-background {
+            0%, 100% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Прозрачный фон контейнера */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+
+        header {
+            background-color: #24292e;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        nav {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 0 0 5px 5px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #24292e;
+            color: #fff;
+            border-radius: 0 0 5px 5px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Личная веб-страница</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#about">О себе</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#forum">Форум</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <section id="about">
+                <h2>О себе</h2>
+                <p>Здесь можно написать краткую информацию о себе.</p>
+            </section>
+
+            <section id="projects">
+                <h2>Проекты</h2>
+                <p>Здесь можно перечислить ваши проекты с ссылками на них.</p>
+            </section>
+
+            <section id="forum">
+                <h2>Форум</h2>
+                <p>Здесь будет размещен форум для обсуждения интересующих вас тем.</p>
+                <!-- Вставьте код форума или ссылку на него здесь -->
+            </section>
+
+            <section id="contact">
+                <h2>Контакты</h2>
+                <p>Здесь можно указать способы связи с вами.</p>
+            </section>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2024 Ваше Имя</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
